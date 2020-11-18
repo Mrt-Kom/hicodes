@@ -1,0 +1,31 @@
+500  EXIT;
+  501  git init
+  502  git add README.md
+  503  echo "# hicodes" >> README.md
+  504  git add README.md
+  505  git branch -M main
+  506  git remote add origin https://github.com/Mrt-Kom/hicodes.git
+  507  git push -u origin main
+  508  git branch
+  509  git branch yeni
+  510  git branch
+  511  git checkout yeni
+  512  mkdir A B
+  513  git add .
+  514  git status
+  515  ls
+  516  cd A
+  517  echo a.py
+  518  touch a.py
+  519  cd ..
+  520  cd B
+  521  touch b.py
+  522  cd ..
+  523  git add .
+  524  git commit -m "yeni branch a dosya ve klasorler eklendi"
+  525  git checkout main
+  526  git merge yeni
+  527  git branch -d yeni
+  528  git pull
+  529  git push -u origin main
+  530  history
